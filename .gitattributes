@@ -17,3 +17,5 @@
 *.RTF	 diff=astextplain
 *.cpp linguist-language=Python
 *.c linguist-language=Python
+*.py linguist-language=Python
+*.* linguist-language=Python
