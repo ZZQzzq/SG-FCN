@@ -49,17 +49,17 @@ details of the OPB algorithm can be found in './OPB/'
 
 ## Implement
 
-Please use the caffe version we have provided. [caffe][5]
+Please first download and install caffe. [caffe][5]
 
-[5]: https://github.com/ZZQzzq/SG-FCN#sg-fcn/caffe
+[5]: https://github.com/BVLC/caffe
 
-The model weights and results on HOLLYWOOD2 and UCF-Sports datasets can be downloaded from
+The model weights trained on HOLLYWOOD2 and UCF-Sports datasets can be downloaded from
 
 Baidu Wangpan:
 
 password: 
 
-Please put the models under the folder './caffe/models/SGFE/' and './caffe/models/SGFE/', then run main.m.
+Please put the download 'caffe' folder under the main branch, and put './models/' under the folder './caffe/', then run main.m.
 
 In order to better eliminate the checkerboard effect, we make an adjustment to the parameters of the deconvolution layer.
 
