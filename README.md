@@ -29,9 +29,9 @@ for Video Saliency Detection, IEEE Transactions on Cybernetics.
 ## Frame Work
 
 ### 1. SG-FCN
-
-![sg-fcn model structure](https://github.com/ZZQzzq/SG-FCN/blob/master/figs/sg-fcn.png)
-
+<div align=center>
+    <img src="https://github.com/ZZQzzq/SG-FCN/blob/master/figs/sg-fcn.png"/>
+</div>
 Flow chart of our proposed model, in which we use the proposed model SGF for capturing the spatial and temporal information simultaneously.
 SGF(3) is used to handle the first frame because neither motion nor temporal information is available. From the next frame onward, the SGF(E) model
 takes EF(1) from SGF(3), a fast moving object edge map B(2) from the OPB algorithm, and the current frame (2) as the input, and directly outputs the
@@ -39,7 +39,10 @@ spatiotemporal prediction EF(2).
 
 ### 2. SGF(E)
 
-![sgfe model structure](https://github.com/ZZQzzq/SG-FCN/blob/master/figs/sgfe.png)
+<div align=center>
+ <img src="https://github.com/ZZQzzq/SG-FCN/blob/master/figs/sgfe.png"/>
+</div>
+
 
 Structure of model SGF(E). As shown in the flowchart, the input data is a tensor of h × w × 4. At the top of the model, we add an Eltwise layer with function SUM [big map(i), boundary map(i)] before Sigmoid function.
 
