@@ -71,7 +71,7 @@ Our results are sightly improved over the original scores reported in our paper:
 | dataset | CC | SIM | NSS | EMD | AUC|
 | --- | --- |  --- | --- | --- | --- |
 | HOLLYWOOD2 | 0.6181 | 0.5161 |1.5158 |0.8984 |0.8936 |
-| UCF-Sports | 0.5985 | 0.4524 |1.4582 |0.6383 |0.8936 |
+| UCF-Sports | 0.5985 | 0.4524 |1.4582 |0.8301 |0.8936 |
 
 ***
 If you find our method useful in your research, please consider citing:
