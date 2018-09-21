@@ -58,9 +58,9 @@ Please first download and install caffe. [caffe][5]
 
 The model weights trained on HOLLYWOOD2 and UCF-Sports datasets can be downloaded from
 
-Baidu Wangpan: https://pan.baidu.com/s/17aaHaHI3jKMODKP81g0qhg
+Baidu Wangpan: https://pan.baidu.com/s/1bgu80UOKJOXN2OvhAx_2sw 
 
-password: cny2
+password: lfi8
 
 Please put the download 'caffe' folder under the main branch, and put './models/' under the folder './caffe/', then run main.m.
 
