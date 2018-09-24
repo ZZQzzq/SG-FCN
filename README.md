@@ -8,7 +8,7 @@ for Video Saliency Detection, IEEE Transactions on Cybernetics.
 
 [Paper][1],  [Code][2].  
 
-[1]: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8365810       "Paper" 
+[1]: https://arxiv.org/abs/1809.07988     "Paper" 
 [2]: https://github.com/ZZQzzq/SG-FCN#sg-fcn/  "Code" 
 
 ```
