@@ -25,7 +25,19 @@ for Video Saliency Detection, IEEE Transactions on Cybernetics.
     ISSN={2168-2267}, 
     month={},}
 ```
+Note: We are very grateful to the source code provided by [ConsistentViSal][5] and the role of [VSOD][7] in promoting this work.
+[5]: https://github.com/wenguanwang/ConsistentViSal
+[7]: https://github.com/wenguanwang/ViSalientObject
+Which can be cited by:
+```
+W. Wang, J. Shen, and L. Shao, 
+Consistent video saliency using local gradient flow optimization and global refinement,  
+IEEE Trans. on Image Processing, 24(11):4185-4196, 2015 
 
+W. Wang, J. Shen, and L. Shao, 
+Video salient object detection via fully convolutional networks, 
+IEEE Trans. on Image Processing, 27(1):38-49, 2018
+```
 ## Frame Work
 
 ### 1. SG-FCN
@@ -48,13 +60,19 @@ Structure of model SGF(E). As shown in the flowchart, the input data is a tensor
 
 ### 3. OPB Algorithm
 details of the OPB algorithm can be found in './OPB/'
+Note: The OPB algorithm draws on [ConsistentViSal][5], which can be accessed and referenced by 
+```
+W. Wang, J. Shen, and L. Shao, 
+Consistent video saliency using local gradient flow optimization and global refinement,  
+IEEE Trans. on Image Processing, 24(11):4185-4196, 2015  
+```
 
 
 ## Implement
 
-Please first download and install caffe. [caffe][5]
+Please first download and install caffe. [caffe][6]
 
-[5]: https://github.com/BVLC/caffe
+[6]: https://github.com/BVLC/caffe
 
 The model weights trained on HOLLYWOOD2 and UCF-Sports datasets can be downloaded from
 
